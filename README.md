@@ -4,9 +4,7 @@ Double difference algorithm (Waldhauser and Ellsworth, 2000) is a widely used me
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Function: Data cleaning. 
-
          Covert the initial catalog file (information of event and traces are in a single file with messy orders, redundant info, missing          data etc.) into two standarded formated files (station.dat, phase.dat) required as inputs of double difference relocation                program (Waldhauser, 2001) 
-
          Here, we use Spanish local network records as an example. Users retrievd data from other networks may modify it according                  to the detailed format.
 
 Usage:   Run DD_phase_Spain.m, it will automatically call splitEvtsAndtrsMB, readAllDat,ToDD_station_Spain
