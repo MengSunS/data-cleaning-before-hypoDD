@@ -1,0 +1,2 @@
+# -Matlab-Data-cleansing-before-double-difference-relocation
+Double difference algorithm (Waldhauser and Ellsworth, 2000) is a widely used method to improve the seismicity pattern precision in seismology. However, the raw data downloaded from networks can not be used as the inputs directly due to formats, info sequence, missing data, redundant info etc.. Here, we present codes to deal these problems (use Spainish local network catalog as an example) and the resulted two files can be directly used as inputs of double difference relocation (hypoDD). 
